@@ -10,6 +10,11 @@
                 "macro_name": "HSE_VALUE"
             }
         },
+        "overrides": {
+            "clock_source": "USE_PLL_HSE_XTAL | USE_PLL_HSI",
+            "lse_drive_load_level": "RCC_LSEDRIVE_LOW"
+            
+        },
         "device_has_add": [
             "SERIAL_ASYNCH",
             "FLASH"
