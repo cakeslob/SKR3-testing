@@ -19,6 +19,7 @@
             "SERIAL_ASYNCH",
             "FLASH"
         ],
+        "device_has_remove": ["LPTICKER"],
         "device_name": "STM32H743VITx",
         "bootloader_supported": true
     }
